@@ -1,11 +1,11 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto');
 let tamanhoSenha = 12;
-numeroSenha.textContent = tamanhoSenha;
+
 const LetrasMaiusculas =('ABCDEFGHIJKLMNOPQRSTUVXYWZ')
 const letrasMinusculas = 'abcdefghijklmnopqrstuvxywz';
 const numeros = '0123456789';
 const simbolos = '!@%*?$';
- const campoSenha =document.querySelector('#campo-Senha');
+ const campoSenha =document.querySelector('.campo-Senha');
 const checkbox = document.querySelectorAll('.checkbox');
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 const forcaSenha =document.querySelector('.forca')
